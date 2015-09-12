@@ -1,4 +1,4 @@
-# # Djangular Boilerplate
+# Djangular Boilerplate
 
 Django and Angular along with workflow tools like npm, gulp, bower, and jade.
 
