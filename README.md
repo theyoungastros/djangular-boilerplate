@@ -45,8 +45,8 @@ $ sudo npm install bower -g
 $ cd ~/
 $ mkdir envs
 $ cd envs
-virtualenv lifestail
-$ cd lifestail
+virtualenv __ProjectName__
+$ cd __ProjectName__
 ```
 
 ### Clone Repo into ~/envs/__ProjectName__/app
@@ -86,7 +86,7 @@ DATABASES = {
 }
 ```
 
-### Edit ~/envs/lifestail/bin/activate
+### Edit ~/envs/__ProjectName__/bin/activate
 Replace the following:
 
 ```
