@@ -1,0 +1,6 @@
+aside.nav(ng-controller="NavCtrl")
+    ul
+        li(ng-repeat="item in menuItems")
+            a(ui-sref="{{item.state}}", ui-sref-opts="{ reload: true }", ng-class="{ 'active': $state.includes(item.active_state) }")
+              i.fa(ng-class="item.icon")
+              | {{item.title}}

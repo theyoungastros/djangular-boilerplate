@@ -1,0 +1,17 @@
+| {% load staticfiles %}
+doctype html
+html
+    | {% block head %}
+    head
+    title {% block title %}{{ page.title|join:" | " }}{% endblock %}
+        | {% block style %}
+        link(rel="stylesheet" href="{% static 'styles/all.css' %}" media="screen" charset="utf-8")
+        | {% endblock %}
+    | {% endblock %}
+    | {% block body %}
+    body(class="{% block bodyclass %}page-{{ page.class }}{% endblock %}")
+        | {% block content %}{% endblock %}
+        | {% block scripts %}
+        script(type="text/javascript" src="{% static 'scripts/all.js' %}")
+        | {% endblock %}
+    | {% endblock %}

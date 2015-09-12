@@ -1,0 +1,10 @@
+| {% extends "shared/base.html" %}
+| {% block content %}
+
+div(ng-controller="RootCtrl")
+    div(ui-view="header")
+    div(ui-view="nav")
+    div(ui-view="content", class="main-content")
+
+
+| {% endblock %}

@@ -1,0 +1,48 @@
+/* OS */
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+completer.hist
+
+/* Byte-compiled / Optimized */
+__pycache__/
+*.py[cod]
+
+/* Logging */
+*.log
+*.pot
+pip-log.txt
+pip-delete-this-directory.txt
+
+/* Merge conflicts */
+*.orig
+
+/* IDEs */
+*.idea
+*.sublime-project
+*.sublime-workspace
+.settings/
+
+/* Vagrant */
+.vagrant/*
+
+/* Redis */
+dump.rdb
+
+
+/* App */
+
+templates/*
+static/
+bower_components/
+node_modules/
+tmp/*
+!tmp/readme
+uploads/*
+!uploads/readme
+
+db.sqlite3
