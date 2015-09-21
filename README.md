@@ -69,7 +69,7 @@ $ gulp build
 
 ### Configure Local Settings
 ```
-$ vi ~/envs/__ProjectName__/app/boiler/settings.py
+$ vi ~/envs/__ProjectName__/app/root/settings.py
 ```
 
 Replace database settings with the following:
@@ -110,11 +110,11 @@ $ pip install -r requirements.txt
 $ psql 
 $ > create database DATABASE_NAME;
 $ > \q
-$ python boiler/manage.py migrate
-$ python boiler/manage.py createsuperuser
+$ python app/manage.py migrate
+$ python app/manage.py createsuperuser
 
 # follow prompts
-$ python app/lifestail/manage.py runserver
+$ python app/manage.py runserver
 ```
 
 http://localhost:8000/admin
