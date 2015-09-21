@@ -54,7 +54,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.security.SecurityMiddleware',
 )
 
-ROOT_URLCONF = 'boiler.urls'
+ROOT_URLCONF = 'root.urls'
 
 
 TEMPLATES = [
@@ -75,7 +75,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'boiler.wsgi.application'
+WSGI_APPLICATION = 'root.wsgi.application'
 
 
 # Database
