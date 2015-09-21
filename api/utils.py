@@ -1,5 +1,5 @@
 from django.http import JsonResponse
-from boiler import settings
+from root import settings
 
 def json_response(objects, status=200, message=""):
 
