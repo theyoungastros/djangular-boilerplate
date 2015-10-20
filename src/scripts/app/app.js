@@ -1,5 +1,5 @@
 /**
- * Bundle Bside Dashboard dependencies
+ * Bundle App dependencies
  */
 window.app = angular.module( 'App', [
     //Angular modules
